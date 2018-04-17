@@ -4,10 +4,11 @@ if array.length == 1
 
 elsif array.length == 2
   array.join(" and ")
-else 
+else
   last_one = []
   last_one.push(array.pop)
   last_one.unshift('and')
+  array.push(last_one)
 #elsif array.length == 3
 #  array_new = []
 #array_new.push(array.insert(2, 'and'))
