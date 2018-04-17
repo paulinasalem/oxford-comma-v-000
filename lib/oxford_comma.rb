@@ -7,7 +7,7 @@ elsif array.length == 2
 else
   last_one = array.pop
   new_string = array.join(' , ')
-  array.push('and ')
-  array.push(last_one)
+  new_string.push('and ')
+  new_string.push(last_one)
 end
 end
