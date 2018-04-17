@@ -5,7 +5,7 @@ if array.length == 1
 elsif array.length == 2
   array.join(" and ")
 else
-  array.pop = last_one
+  last_one = array.pop
   last_one.unshift('and ')
   array.join(' , ')
   array.push(last_one)
