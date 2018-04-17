@@ -5,7 +5,8 @@ if array.length == 1
 elsif array.length == 2
   array.join(" and ")
 elsif array.length == 3
-array.join
-array.insert(2, 'and')
+  array_new = []
+array_new.push(array.join)
+array_new.insert(2, 'and')
 end
 end
