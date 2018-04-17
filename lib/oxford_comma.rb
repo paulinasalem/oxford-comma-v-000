@@ -7,6 +7,6 @@ elsif array.length == 2
 else
   last_one = array.pop
   new_string = array.join(', ')
-  new_string+(' and ')+ (last_one)
+  new_string+(', and ')+ (last_one)
 end
 end
