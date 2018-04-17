@@ -5,9 +5,9 @@ if array.length == 1
 elsif array.length == 2
   array.join(" and ")
 else
-  last_one = []
-  last_one.push(array.pop)
-  last_one.unshift('and')
+  array.pop = last_one
+  last_one.unshift('and ')
+  array.join(' , ')
   array.push(last_one)
 end
 end
